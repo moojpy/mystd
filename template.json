@@ -1,24 +1,86 @@
 {
     "Actor": {
+
         "types": [
-            "PlayerCharacter"
+            "player"
         ],
 
-        "PlayerCharacter": {
-            "race": "Jigglypuff",
-            "gender": "female",
-            "age": "67",
-            "height": "55",
-            "weight": "8"
+        "player": {
+            
+            "species": 0,
+            "types": ["normal"],
+            "name": "",
+
+            "charDetails": {
+                "nickname": "",
+                "title": "",
+                "guild": "",
+                "home": ""
+            },
+
+            "experience": {
+                "level": 1,
+                "earndExp": 0
+            },
+
+            "stats": {
+                "attack": {
+                    "start": 0,
+                    "raised": 0,
+                    "bonus": 0
+                },
+                "defense": {
+                    "start": 0,
+                    "raised": 0,
+                    "bonus": 0
+                },
+                "sAttack": {
+                    "start": 0,
+                    "raised": 0,
+                    "bonus": 0
+                },
+                "sDefense": {
+                    "start": 0,
+                    "raised": 0,
+                    "bonus": 0
+                },
+                "speed": {
+                    "start": 0,
+                    "raised": 0,
+                    "bonus": 0
+                }
+            },
+
+            "baseValues": {
+                "health": {
+                    "value": 0,
+                    "max": 0,
+                    "reg": 0,
+                    "sustained": 0
+                }
+            },
+
+            "pastLife": {
+                "enabled": 1,
+                "name": "",
+                "gender": "",
+                "age": "",
+                "job": "",
+                "description": ""
+            }
         }
     },
 
     "Item": {
-        "types": [
-            "item"
+
+        "types":[
+            "trait",
+            "skill",
+            "template"
         ],
 
         "templates": {
+
             "generalItems": {
                 "weight": 10,
                 "value": 100,
@@ -26,10 +88,28 @@
             }
         },
 
-        "Item": {
-            "templates": ["generalItems"],
-            "type": "item",
-            "quantity": 1
+        "trait": {
+            "description": "",
+            "bonus": [{
+                "type": "",
+                "value": ""
+            }]
+        },
+
+        "skill": {
+            "description": "",
+            "attribute1": "",
+            "attribute2": "",
+            "value": 0
+        },
+
+        "template": {
+            "description": "",
+            "type": "race",
+            "bonus": [{
+                "type": "",
+                "value": ""
+            }]
         }
     }
 }
