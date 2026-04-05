@@ -50,10 +50,10 @@
                     "raised": 0,
                     "bonus": 0
                 },
-                "ignoreThis": 0,
-                "vsCodeWont": 0,
-                "signMyDamn": 0,
-                "commits": 0
+                "ignoreThis": 1,
+                "vsCodeWont": 1,
+                "signMyDamn": 1,
+                "commits": 1
             },
 
             "baseValues": {
