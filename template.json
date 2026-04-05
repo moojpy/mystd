@@ -49,7 +49,11 @@
                     "start": 0,
                     "raised": 0,
                     "bonus": 0
-                }
+                },
+                "ignoreThis": 0,
+                "vsCodeWont": 0,
+                "signMyDamn": 0,
+                "commits": 0
             },
 
             "baseValues": {
