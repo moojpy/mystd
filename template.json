@@ -1,0 +1,35 @@
+{
+    "Actor": {
+        "types": [
+            "PlayerCharacter"
+        ],
+
+        "PlayerCharacter": {
+            "race": "Jigglypuff",
+            "gender": "female",
+            "age": "67",
+            "height": "55",
+            "weight": "8"
+        }
+    },
+
+    "Item": {
+        "types": [
+            "item"
+        ],
+
+        "templates": {
+            "generalItems": {
+                "weight": 10,
+                "value": 100,
+                "description": ""
+            }
+        },
+
+        "Item": {
+            "templates": ["generalItems"],
+            "type": "item",
+            "quantity": 1
+        }
+    }
+}

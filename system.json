@@ -1,0 +1,40 @@
+{
+    "id": "mystd",
+    "title": "Mystd Core System",
+    "description": "Core system for Mystd, based off the Pokemon Mystery Dungeon video games.",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "mooj",
+            "discord": "moojpy"
+        }
+    ],
+    "compatibility": {
+        "minimum": 14,
+        "verified": "14.359",
+        "maximum": 14
+    },
+    "esmodules": [
+        "mystd.js"
+    ],
+    "languages": [
+        {
+            "lang": "fr",
+            "name": "Francais",
+            "path": "langs/fr.json"
+        },
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "langs/en.json"
+        }
+    ],
+    "socket": false,
+    "grid": {
+        "distance": 1,
+        "units": "Meter"
+    },
+    "url": "https://github.com/moojpy/mystd",
+    "manifest": "https://github.com/moojpy/mystd/releases/download/v0.0.1/system.json",
+    "download": "https://github.com/moojpy/mystd/releases/download/v0.0.1/system.zip"
+}
